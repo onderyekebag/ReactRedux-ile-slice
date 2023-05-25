@@ -1,0 +1,50 @@
+.navbar-main {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  color: white;
+}
+.navbar-basket {
+  position: relative;
+}
+.basket-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+.basket-number {
+  background-color: #fff;
+  color: black;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+.card {
+  width: 300px;
+  margin: 15px;
+}
+.basket-title {
+  text-align: center;
+  margin-top: 20px;
+  color: blue;
+  font-weight: bold;
+}
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.footer-div button {
+  width: 200px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
